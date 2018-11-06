@@ -1,0 +1,19 @@
+Usage: autoprefixer [OPTION...] FILES
+
+Parse CSS files and add prefixed properties and values.
+
+Options:
+  -b, --browsers BROWSERS  add prefixes for selected browsers
+  -c, --clean              remove all known prefixes
+  -o, --output FILE        set output file
+  -d, --dir DIR            set output dir
+  -m, --map                generate source map
+
+Usage: cli [options] <files/urls ...>
+
+Options:
+  -V, --version                output the version number
+  -a, --api <url>              Overrides the default API endpoint (default: "https://validator.nu/")
+  -c, --concurrency <number>   Sets the concurrency of the batch processing (default: 5)
+  -f, --formatter <formatter>  Choose the formatter to use. (stylish, json) (default: "stylish")
+  -h, --help                   output usage information
