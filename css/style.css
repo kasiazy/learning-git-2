@@ -1,1 +1,16 @@
-body { background: red; }
+/*GENERAL*/
+body { margin: 0; font-family: adobe-garamond-pro, serif; text-align: center; background-color: #f4f4f4; }
+
+.container { width: 100%; max-width: 1200px; margin: 0 auto; }
+
+h1 { text-transform: uppercase; color: #dcd0c0; margin-bottom: 0px; }
+
+h3 { text-transform: lowercase; color: #dcd0c0; margin-top: 0px; font-size: 12px; }
+
+/*HEADER*/
+.header { height: 100px; font-family: 'Montserrat', sans-serif; padding: 10px; }
+
+/*TEXT*/
+#chorus { color: #c0b283; }
+
+#general { color: #373737; }
